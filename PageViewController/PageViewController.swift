@@ -1,6 +1,5 @@
 //
-//  ViewController.swift
-//  ScrollTableView
+//  PageViewController.swoft
 //
 //  Created by Cyril Garcia on 8/16/18.
 //  Copyright © 2018 Cyril Garcia. All rights reserved.
@@ -15,7 +14,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.orderedViewController = [newVC(identifier: "Monday"), newVC(identifier: "Tuesday")]
+        self.orderedViewController = [vc("FirstViewController"), vc("SecondViewController")]
         
         self.dataSource = self
         
@@ -25,7 +24,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         
     }
 
-    func newVC(identifier: String) -> UIViewController {
+    func vc(_ identifier: String) -> UIViewController {
         return self.storyboard!.instantiateViewController(withIdentifier:identifier)
     }
     

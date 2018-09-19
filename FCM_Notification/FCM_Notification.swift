@@ -1,6 +1,5 @@
 //
 //  FCMNotification.swift
-//  Cys List
 //
 //  Created by Cyril Garcia on 5/31/17.
 //  Copyright © 2017 By Cyril. All rights reserved.

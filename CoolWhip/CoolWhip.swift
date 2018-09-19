@@ -1,6 +1,5 @@
 //
 //  CoolWhip.swift
-//  OneDown
 //
 //  Created by Cyril Garcia on 5/21/17.
 //  Copyright © 2017 ByCyril. All rights reserved.
