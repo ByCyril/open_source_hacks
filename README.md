@@ -1,6 +1,11 @@
 # open_source_hacks
 
 
+## CustomCamera
+
+Create your own custom camera with the Camera class or use a custom CameraController. Refer to the demo on how to use the classes.
+
+
 ## CoolWhip
 
 Simple class function methods for simple animations
