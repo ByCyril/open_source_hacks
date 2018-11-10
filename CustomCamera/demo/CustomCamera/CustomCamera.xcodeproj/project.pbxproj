@@ -12,7 +12,6 @@
 		014DC83F2153304F00AD97FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014DC83D2153304F00AD97FC /* Main.storyboard */; };
 		014DC8412153305000AD97FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014DC8402153305000AD97FC /* Assets.xcassets */; };
 		014DC8442153305000AD97FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014DC8422153305000AD97FC /* LaunchScreen.storyboard */; };
-		014DC84C2153305600AD97FC /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DC84B2153305600AD97FC /* Camera.swift */; };
 		014DC84E2153390200AD97FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DC84D2153390200AD97FC /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		014DC8402153305000AD97FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014DC8432153305000AD97FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		014DC8452153305000AD97FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		014DC84B2153305600AD97FC /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		014DC84D2153390200AD97FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				014DC8392153304F00AD97FC /* AppDelegate.swift */,
 				014DC84D2153390200AD97FC /* ViewController.swift */,
 				014DC83B2153304F00AD97FC /* CameraController.swift */,
-				014DC84B2153305600AD97FC /* Camera.swift */,
 				014DC83D2153304F00AD97FC /* Main.storyboard */,
 				014DC8402153305000AD97FC /* Assets.xcassets */,
 				014DC8422153305000AD97FC /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				014DC83C2153304F00AD97FC /* CameraController.swift in Sources */,
-				014DC84C2153305600AD97FC /* Camera.swift in Sources */,
 				014DC84E2153390200AD97FC /* ViewController.swift in Sources */,
 				014DC83A2153304F00AD97FC /* AppDelegate.swift in Sources */,
 			);

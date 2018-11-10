@@ -9,24 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController, CameraDelegate {
-    
-    var camera: CameraController!
-    
+    let camera = CameraController()
+
     @IBOutlet var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-  
+        self.camera.delegate = self
+
     }
     
     @IBAction func showCamera() {
-        self.camera = CameraController()
-        self.camera.delegate = self
         self.present(self.camera, animated: true, completion: nil)
     }
     
-    func getImageData(_ image: UIImage) {
-        print("Image:",image)
+ 
+    func getImage(_ image: UIImage) {
         self.imageView.image = image
     }
     
